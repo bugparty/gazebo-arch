@@ -18,6 +18,9 @@ _dir="sdformat-sdformat9_${pkgver}"
 
 build() {
   cd "${srcdir}/${_dir}"
+
+  sed -i 's/exists/exist/g' tools/xmlschema.rb
+
   mkdir -p build && cd build
 
   cmake .. -DCMAKE_BUILD_TYPE="Release" \
