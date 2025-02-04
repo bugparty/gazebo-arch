@@ -9,7 +9,7 @@
 # Contributor: Bernd Müller <github@muellerbernd.de>
 
 pkgname=gazebo
-pkgver=11.14.0
+pkgver=11.15.1
 pkgrel=2
 pkgdesc="A multi-robot simulator for outdoor environments"
 arch=('i686' 'x86_64')
@@ -30,7 +30,7 @@ optdepends=('bullet: Bullet support'
 makedepends=('cmake' 'doxygen' 'ruby-ronn')
 install="${pkgname}.install"
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/gazebosim/gazebo-classic/archive/${pkgname}11_$pkgver.tar.gz")
-sha256sums=('6b63d857399ba08190c331b545d24e8e3e308b840ff051bbf39e87879e37af50')
+sha256sums=('77a952971eabfd79e16d2582a355ee017a2e22cc369b68453323c0984b725126')
 
 _pkgname=gazebo-classic
 
